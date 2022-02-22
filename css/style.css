@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+html {
+  color: #24292e;
+  font-size: 100%;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.inner {
+  max-width: 960px;
+  margin: 0 auto 130px;
+  font-size: 0.9rem;
+  padding: 0 4%;
+}
+.site-title {
+  line-height: 1px;
+}
+.section-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 65px;
+}
+a {
+  color: #24292e;
+}
+
+/* header  */
+.header {
+  max-width: 960px;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 270px;
+  padding: 0 4%;
+}
+.header ul {
+  display: flex;
+}
+.header ul li {
+  margin-left: 30px;
+}
+.header li img.icon {
+  width: 20px;
+}
+
+/* mainvisual */
+.mainvisual {
+  margin-bottom: 80px;
+}
+.mainvisual img {
+  width: 100%;
+  object-fit: cover;
+  height: 420px;
+  max-width: 1920px;
+}
+
+/* main section */
+/* about */
+#about ul {
+  margin-bottom: 30px;
+}
+#about li:first-child {
+  margin-bottom: 30px;
+}
+#about li {
+
+}
+
+/* works */
+#works ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+#works li {
+  width: 31%;
+  margin-bottom: 23px;
+}
+
+/* news */
+#news dl {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  border-top: 1px solid #c8c8c8;
+  flex-wrap: wrap;
+}
+#news dt {
+  width: 20%;
+  padding: 15px;
+  border-bottom: 1px solid #c8c8c8;
+}
+#news dd {
+  width: 80%;
+  padding: 15px;
+  border-bottom: solid 1px #c8c8c8;
+}
+
+/* contact */
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+#contact dt {
+  width: 15%;
+}
+#contact dd {
+  width: 85%;
+  margin-bottom: 10px;
+}
+#contact dd input {
+  width: 100%;
+  border: solid 1px #c8c8c8;
+  padding: 10px;
+}
+#contact dd textarea {
+  width: 100%;
+  border: solid 1px #c8c8c8;
+  padding: 10px;
+  height: 10rem;
+}
+#contact .btn {
+  text-align: center;
+}
+#contact .btn input {
+  display: inline-block;
+  background-color: #24292e;
+  width: 200px;
+  padding: 15px 0;
+  color: #fff;
+}
+
+/* footer */
+.footer {
+  background-color: #24292e;
+  color: #fff;
+  font-size: 0.5rem;
+  padding: 10px 20px;
+  text-align: center;
+}
